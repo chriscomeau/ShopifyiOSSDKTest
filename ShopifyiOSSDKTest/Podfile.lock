@@ -1,0 +1,20 @@
+PODS:
+  - Mobile-Buy-SDK (3.3.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - Mobile-Buy-SDK
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Mobile-Buy-SDK
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Mobile-Buy-SDK: 4f9cd85ea6685c5e1cfab74a9a6cc54135d917a9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: dce3cd2ac98a2c6faafcf041b810a6cbc694b2bc
+
+COCOAPODS: 1.5.3
