@@ -10,10 +10,17 @@ import Foundation
 
 enum Secret {
 	#warning("Missing secret information")
+
+	static let domain = "INSERT YOUR DOMAIN"
+	static let apiKey = "INSERT YOUR API KEY"
+	static let password = "INSERT YOUR PASSWORD"
+	static let sharedSecret = "INSERT YOUR SHARED SECRET"
+	static let accesToken = "INSERT YOUR TOKEN"
+
+	//https://help.shopify.com/en/api/custom-storefronts/storefront-api/getting-started#accessing-the-storefront-api-graphql-endpoint
+	//https://github.com/Shopify/mobile-buy-sdk-ios#graphclient-
 	
-	static let Key = "INSERT YOUR API KEY"
-	static let Password = "INSERT YOUR PASSWORD"
-	static let SharedSecret = "INSERT YOUR SHARED SECRET"
-	static let AccesToken = "INSERT YOUR TOKEN"
-	static let Domain = "INSERT YOUR DOMAIN"
+	//https://wildlyinaccurate.com/git-ignore-changes-in-already-tracked-files/
+	//git update-index --assume-unchanged <file>
+	//git update-index --no-assume-unchanged <file>
 }
