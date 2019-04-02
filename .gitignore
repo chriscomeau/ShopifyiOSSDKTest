@@ -89,5 +89,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-
-
+# API secrets
+#ShopifyiOSSDKTest/ShopifyiOSSDKTest/Secret.swift

@@ -7,13 +7,33 @@
 //
 
 import UIKit
+import MobileBuySDK
+
+//INSERT YOUR API KEY in a file Secret.swift
+/*enum Secret {
+	static let APIKey = ""
+	static let APIPassword = ""
+	static let APISharedSecret = ""
+}*/
 
 class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
-  }
+
+		
+		//test
+		print("API key: \(Secret.Key)")
+		
+		
+		/*let query = Storefront.buildQuery { $0
+			.shop { $0
+				.name()
+			}
+		}*/
+
+	
+	}
 
 
 }
