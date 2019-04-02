@@ -31,7 +31,9 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 
 - [x] Swift 4.2
 - [x] Cocoapods
-- [x] Uses [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios)
+- [x] Connect using [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios) 
+- [x] Tested with existing test store [https://skyriser-media.myshopify.com](https://skyriser-media.myshopify.com/).
+- [ ] [Shopify/FunctionalTableData](https://github.com/Shopify/FunctionalTableData) for data display
 
 
 ## Frameworks

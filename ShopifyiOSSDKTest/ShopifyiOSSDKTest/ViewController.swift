@@ -16,7 +16,8 @@ class ViewController: UIViewController {
 
 		//print API key
 		print("Domain: \(Secret.domain)")
-		print("API key: \(Secret.apiKey)")
+		//print("API key: \(Secret.apiKey)")
+		print("API key: \(Secret.accesToken)")
 
 		//test API
 		//https://github.com/Shopify/mobile-buy-sdk-ios#graphclient-
