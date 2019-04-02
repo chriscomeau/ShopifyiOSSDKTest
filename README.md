@@ -1,6 +1,6 @@
 # ShopifyiOSSDKTest
 
-**🚨 The app is currently in development. 🚨**
+**🚧 The app is currently in development 🚧**
 
 Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios).
 
@@ -32,7 +32,8 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 - [x] Swift 4.2
 - [x] Cocoapods
 - [x] Connect using [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios) 
-- [x] Tested with existing test store [https://skyriser-media.myshopify.com](https://skyriser-media.myshopify.com/).
+- [x] Tested API credentials with [GraphiQL](https://github.com/graphql/graphiql)
+- [x] Tested with existing test store [https://skyriser-media.myshopify.com](https://skyriser-media.myshopify.com/)
 - [ ] [Shopify/FunctionalTableData](https://github.com/Shopify/FunctionalTableData) for data display
 
 
