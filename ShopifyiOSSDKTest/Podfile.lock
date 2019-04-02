@@ -1,5 +1,5 @@
 PODS:
-  - Mobile-Buy-SDK (3.3.3)
+  - Mobile-Buy-SDK (3.4.0)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ SPEC REPOS:
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  Mobile-Buy-SDK: 4f9cd85ea6685c5e1cfab74a9a6cc54135d917a9
+  Mobile-Buy-SDK: 3ae8e0ba33b62abaf3739b68778d2ed63732d67c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
 PODFILE CHECKSUM: de25bb01e708f7312136239176729fceb751d35c

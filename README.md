@@ -14,6 +14,8 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 * Install Cocoapods
 
         $ pod install
+
+* Open `ShopifyiOSSDKTest.xcworkspace` in Xcode.
       
 * Add your API keys in Secret.swift
 
@@ -24,12 +26,15 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
         static let accesToken = "INSERT YOUR TOKEN"
 
 
-* Open `ShopifyiOSSDKTest.xcworkspace` in Xcode.
+* Prevent your API keys to be commited
+
+        git update-index --assume-unchanged ShopifyiOSSDKTest/ShopifyiOSSDKTest/Secret.swift
+
 
 
 ## Features
 
-- [x] Swift 4.2
+- [x] Swift 5.0
 - [x] Cocoapods
 - [x] Connect using [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios) 
 - [x] Tested API credentials with [GraphiQL](https://github.com/graphql/graphiql)
@@ -44,9 +49,9 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
  
 ## Requirements
 
-- iOS 11.0+ 
-- Xcode 10.1+
-- Swift 4.2+
+- iOS 12.0+ 
+- Xcode 10.2+
+- Swift 5.0+
 
 
 
