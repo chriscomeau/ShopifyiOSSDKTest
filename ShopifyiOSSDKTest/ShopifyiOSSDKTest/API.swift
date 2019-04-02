@@ -11,6 +11,6 @@ import Foundation
 //https://help.shopify.com/en/api/custom-storefronts/storefront-api/getting-started#accessing-the-storefront-api-graphql-endpoint
 
 enum API {
-	static let orders = "https://\(Secret.Domain)/admin/orders.json"
+	static let orders = "https://\(Secret.domain)/admin/orders.json"
 	
 }

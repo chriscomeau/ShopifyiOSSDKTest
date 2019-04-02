@@ -5,7 +5,6 @@ target 'ShopifyiOSSDKTest' do
 use_frameworks!
 
 pod "Mobile-Buy-SDK"
-pod "Apollo"
 
 pod 'SVProgressHUD'
 

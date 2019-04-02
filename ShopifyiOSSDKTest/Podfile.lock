@@ -1,26 +1,20 @@
 PODS:
-  - Apollo (0.9.5):
-    - Apollo/Core (= 0.9.5)
-  - Apollo/Core (0.9.5)
   - Mobile-Buy-SDK (3.3.3)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
-  - Apollo
   - Mobile-Buy-SDK
   - SVProgressHUD
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
-    - Apollo
     - Mobile-Buy-SDK
     - SVProgressHUD
 
 SPEC CHECKSUMS:
-  Apollo: 19caf3246d292bbb69ecad1bd098661f78222aba
   Mobile-Buy-SDK: 4f9cd85ea6685c5e1cfab74a9a6cc54135d917a9
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: cc591106d22fa2e2f809c77f576798f0f3196836
+PODFILE CHECKSUM: de25bb01e708f7312136239176729fceb751d35c
 
 COCOAPODS: 1.5.3

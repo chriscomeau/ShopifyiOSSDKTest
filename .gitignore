@@ -90,4 +90,4 @@ sysinfo.txt
 *.unitypackage
 
 # API secrets
-#ShopifyiOSSDKTest/ShopifyiOSSDKTest/Secret.swift
+ShopifyiOSSDKTest/ShopifyiOSSDKTest/Secret.swift
