@@ -1,5 +1,4 @@
 # ShopifyiOSSDKTest
-Test project for Shopify/mobile-buy-sdk-ios
 
 **🚨 The app is currently in development. 🚨**
 
@@ -24,13 +23,11 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 ## Features
 
 - [x] Swift 4.2
-- [x] Cocoapods dependency manager
+- [x] Cocoapods
 
 ## Frameworks
 
 - [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios)
-- [SVProgressHUD](https://github.com/SVProgressHUD/SVProgressHUD)
-
 
  
 ## Requirements
@@ -40,15 +37,14 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 - Swift 4.2+
 
 
-## Changelog
-
-
-
 
 
 ## Contact
 
 * Chris Comeau
 * iOS Developer, Montreal, Canada
-* chris.comeau@skyriser.com
-* [http://chriscomeau.com/](//)
+* [Email (chris.comeau@skyriser.com)](mailto:chris.comeau@skyriser.com)
+* [Web (http://chriscomeau.com)](http://chriscomeau.com)
+* [GitHub](https://github.com/chriscomeau)
+* [LinkedIn](https://www.linkedin.com/in/christiancomeau)
+* [Twitter (@chriscomeau)](http://twitter.com/chriscomeau)
