@@ -79,6 +79,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39AB62C422539F3E00DB9940 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				83D50C3B2249B4E4002E2E14 /* AppDelegate.swift */,
+				83D50C3D2249B4E4002E2E14 /* ViewController.swift */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		39AB62C522539F4800DB9940 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83D50C3F2249B4E4002E2E14 /* Main.storyboard */,
+				83D50C422249B4EA002E2E14 /* Assets.xcassets */,
+				83D50C442249B4EA002E2E14 /* LaunchScreen.storyboard */,
+				83D50C472249B4EA002E2E14 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3B896F5ADE1D05AFA5995E61 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,12 +141,8 @@
 		83D50C3A2249B4E4002E2E14 /* ShopifyiOSSDKTest */ = {
 			isa = PBXGroup;
 			children = (
-				83D50C3B2249B4E4002E2E14 /* AppDelegate.swift */,
-				83D50C3D2249B4E4002E2E14 /* ViewController.swift */,
-				83D50C3F2249B4E4002E2E14 /* Main.storyboard */,
-				83D50C422249B4EA002E2E14 /* Assets.xcassets */,
-				83D50C442249B4EA002E2E14 /* LaunchScreen.storyboard */,
-				83D50C472249B4EA002E2E14 /* Info.plist */,
+				39AB62C422539F3E00DB9940 /* Source */,
+				39AB62C522539F4800DB9940 /* Resources */,
 			);
 			path = ShopifyiOSSDKTest;
 			sourceTree = "<group>";
