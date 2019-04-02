@@ -15,6 +15,13 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 
         $ pod install
       
+* Add your API keys in Secret.swift
+
+        static let domain = "INSERT YOUR DOMAIN"
+        static let apiKey = "INSERT YOUR API KEY"
+        static let password = "INSERT YOUR PASSWORD"
+        static let sharedSecret = "INSERT YOUR SHARED SECRET"
+        static let accesToken = "INSERT YOUR TOKEN"
 
 
 * Open `ShopifyiOSSDKTest.xcworkspace` in Xcode.
@@ -24,6 +31,8 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 
 - [x] Swift 4.2
 - [x] Cocoapods
+- [x] Uses [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios)
+
 
 ## Frameworks
 
