@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/chriscomeau/ShopifyiOSSDKTest.svg?branch=master)](https://travis-ci.org/chriscomeau/ShopifyiOSSDKTest)
+
 # ShopifyiOSSDKTest
 
 **🚧 The app is currently in development 🚧**
@@ -36,6 +38,7 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 
 - [x] Swift 5.0
 - [x] Cocoapods
+- [x] [Travis CI](https://travis-ci.org)
 - [x] Connect using [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios) 
 - [x] Tested API credentials with [GraphiQL](https://github.com/graphql/graphiql)
 - [x] Tested with existing test store [https://skyriser-media.myshopify.com](https://skyriser-media.myshopify.com/)

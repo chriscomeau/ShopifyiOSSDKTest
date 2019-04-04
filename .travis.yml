@@ -1,0 +1,8 @@
+language: objective-c
+osx_image: xcode10.2
+#xcode_project: ShopifyiOSSDKTest/ShopifyiOSSDKTest.xcodeproj
+xcode_workspace: ShopifyiOSSDKTest/ShopifyiOSSDKTest.xcworkspace
+xcode_scheme: ShopifyiOSSDKTest
+xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone 8
+podfile: ShopifyiOSSDKTest/Podfile
+cache: cocoapods
