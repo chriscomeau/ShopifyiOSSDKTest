@@ -6,3 +6,6 @@ xcode_scheme: ShopifyiOSSDKTest
 xcode_destination: platform=iOS Simulator,OS=12.2,name=iPhone 8
 podfile: ShopifyiOSSDKTest/Podfile
 cache: cocoapods
+
+before_install:
+  - pod repo update

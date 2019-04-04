@@ -1,11 +1,11 @@
-# Uncomment the next line to define a global platform for your project
+source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '11.0'
 
 target 'ShopifyiOSSDKTest' do
 use_frameworks!
 
 pod "Mobile-Buy-SDK"
-
 pod 'SVProgressHUD'
 
 end
