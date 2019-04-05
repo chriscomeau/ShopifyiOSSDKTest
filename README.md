@@ -2,7 +2,7 @@
 
 # ShopifyiOSSDKTest
 
-**🚧 The app is currently in development 🚧**
+![shopify logo](https://github.com/chriscomeau/ShopifyiOSCollections/blob/master/images/shopify-logo.png)
 
 Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios).
 
