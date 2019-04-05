@@ -7,7 +7,7 @@
 Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios).
 
 
-# Building and Running
+## Building and Running
 
 
 **In the Terminal:**
