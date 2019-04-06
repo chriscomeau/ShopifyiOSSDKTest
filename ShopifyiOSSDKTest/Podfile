@@ -3,15 +3,12 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '11.0'
 use_frameworks!
 
-def common_pods
+target 'ShopifyiOSSDKTest' do
   pod "Mobile-Buy-SDK"
   pod 'SVProgressHUD'
-end
 
-target 'ShopifyiOSSDKTest' do
-  common_pods
-end
+  target 'ShopifyiOSSDKTestTests' do
+    inherit! :search_paths
+  end
 
-target 'ShopifyiOSSDKTestTests' do
-  common_pods
 end
