@@ -44,19 +44,21 @@ class ViewController: UIViewController {
 		]*/
 		
 		let task = client.queryGraphWith(query) { response, error in
+      var message = ""
 			if let response = response {
-				let name = response.shop.name
-				print("name: \(name)")
-
 			} else {
-				print("Query failed: \(error?.localizedDescription ?? "???")")
+        //failure
+        message = "Query failed: \(error?.localizedDescription ?? "???")"
 			}
+      
+      let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertController.Style.alert)
+      self.present(alert, animated: true, completion: nil)
+      print(message)
+
 		}
 		task.resume()
-
 	
 	}
-
 
 }
 

@@ -56,6 +56,9 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 - Xcode 10.2+
 - Swift 5.0+
 
+## Screenshots
+
+![screenshot 1](https://github.com/chriscomeau/ShopifyiOSSDKTest/blob/master/screenshots/screenshot1.png)
 
 
 
