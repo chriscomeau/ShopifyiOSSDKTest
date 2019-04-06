@@ -8,6 +8,7 @@
 
 import UIKit
 import MobileBuySDK
+import FunctionalTableData
 
 class ViewController: UIViewController {
 
@@ -28,24 +29,16 @@ class ViewController: UIViewController {
 			apiKey:     Secret.accesToken
 		)
 
-		let query = Storefront.buildQuery { $0
-			.shop { $0
-				.name()
-			}
-		}
-		
-		
-		/*let response = [
-			"data": [
-				"shop": [
-					"name": "My Shop"
-				]
-			]
-		]*/
+    let query = Storefront.buildQuery { $0
+      .shop { $0
+        .name()
+      }
+    }
 		
 		let task = client.queryGraphWith(query) { response, error in
       var message = ""
 			if let response = response {
+        message = "Store name: \(response.shop.name)"
 			} else {
         //failure
         message = "Query failed: \(error?.localizedDescription ?? "???")"

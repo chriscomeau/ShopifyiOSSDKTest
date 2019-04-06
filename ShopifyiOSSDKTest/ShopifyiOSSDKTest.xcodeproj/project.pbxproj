@@ -10,6 +10,8 @@
 		39AB62CB2253A54600DB9940 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB62CA2253A54600DB9940 /* Secret.swift */; };
 		39AB62CE2253A97400DB9940 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB62CD2253A97400DB9940 /* API.swift */; };
 		39AB62D12253B30F00DB9940 /* CustomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB62D02253B30F00DB9940 /* CustomColor.swift */; };
+		830FBAE7225952EC001497CE /* FunctionalTableData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830FBAE6225952EC001497CE /* FunctionalTableData.framework */; };
+		830FBAE8225952ED001497CE /* FunctionalTableData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830FBAE6225952EC001497CE /* FunctionalTableData.framework */; };
 		83D50C3C2249B4E4002E2E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D50C3B2249B4E4002E2E14 /* AppDelegate.swift */; };
 		83D50C3E2249B4E4002E2E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D50C3D2249B4E4002E2E14 /* ViewController.swift */; };
 		83D50C412249B4E4002E2E14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D50C3F2249B4E4002E2E14 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		3FD9570889FF4BFEDD944F42 /* Pods-ShopifyiOSSDKTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyiOSSDKTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShopifyiOSSDKTestTests/Pods-ShopifyiOSSDKTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		551EED78A8229F6F88B07446 /* Pods_ShopifyiOSSDKTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyiOSSDKTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8218C207C9FCA58F75E379BF /* Pods-ShopifyiOSSDKTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyiOSSDKTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShopifyiOSSDKTestTests/Pods-ShopifyiOSSDKTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		830FBAE522593512001497CE /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		830FBAE6225952EC001497CE /* FunctionalTableData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FunctionalTableData.framework; path = Carthage/Build/iOS/FunctionalTableData.framework; sourceTree = SOURCE_ROOT; };
 		83D50C382249B4E4002E2E14 /* ShopifyiOSSDKTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopifyiOSSDKTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D50C3B2249B4E4002E2E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D50C3D2249B4E4002E2E14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830FBAE7225952EC001497CE /* FunctionalTableData.framework in Frameworks */,
 				E1CACB226DCED9023A3F2B5B /* Pods_ShopifyiOSSDKTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830FBAE8225952ED001497CE /* FunctionalTableData.framework in Frameworks */,
 				B5D1C0893219199C9AB17655 /* Pods_ShopifyiOSSDKTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +84,7 @@
 			children = (
 				83D50C3B2249B4E4002E2E14 /* AppDelegate.swift */,
 				39AB62CC2253A95B00DB9940 /* Constants */,
+				830FBAEA22595580001497CE /* Network */,
 				39AB62C72253A33B00DB9940 /* ViewControllers */,
 				39AB62C82253A34600DB9940 /* Models */,
 				39AB62CF2253B2EF00DB9940 /* Extensions */,
@@ -115,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				39AB62CA2253A54600DB9940 /* Secret.swift */,
-				39AB62CD2253A97400DB9940 /* API.swift */,
 			);
 			name = Constants;
 			sourceTree = "<group>";
@@ -148,6 +154,24 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		830FBAE4225934F9001497CE /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				830FBAE522593512001497CE /* Cartfile */,
+				830FBAE6225952EC001497CE /* FunctionalTableData.framework */,
+			);
+			name = Carthage;
+			path = ShopifyiOSSDKTest;
+			sourceTree = "<group>";
+		};
+		830FBAEA22595580001497CE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				39AB62CD2253A97400DB9940 /* API.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
 		83D50C2F2249B4E4002E2E14 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +180,7 @@
 				83D50C4F2249B4EB002E2E14 /* ShopifyiOSSDKTestTests */,
 				83D50C392249B4E4002E2E14 /* Products */,
 				3B896F5ADE1D05AFA5995E61 /* Pods */,
+				830FBAE4225934F9001497CE /* Carthage */,
 				5037224DA99E3859C6D30C65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -199,6 +224,7 @@
 				83D50C352249B4E4002E2E14 /* Frameworks */,
 				83D50C362249B4E4002E2E14 /* Resources */,
 				16C49B400907E1A7D31AA947 /* [CP] Embed Pods Frameworks */,
+				830FBAE922595509001497CE /* Run Script (Carthage) */,
 			);
 			buildRules = (
 			);
@@ -332,6 +358,25 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		830FBAE922595509001497CE /* Run Script (Carthage) */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FunctionalTableData.framework",
+			);
+			name = "Run Script (Carthage)";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
 		};
 		CB42F4DFB5AB99E510568D82 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -531,6 +576,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N2B325D9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ShopifyiOSSDKTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -550,6 +599,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N2B325D9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ShopifyiOSSDKTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -570,6 +623,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N2B325D9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ShopifyiOSSDKTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -592,6 +649,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N2B325D9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ShopifyiOSSDKTestTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

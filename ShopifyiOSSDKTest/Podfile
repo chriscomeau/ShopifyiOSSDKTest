@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'ShopifyiOSSDKTest' do
   pod "Mobile-Buy-SDK"
+  #pod "FunctionalTableData"
   pod 'SVProgressHUD'
 
   target 'ShopifyiOSSDKTestTests' do

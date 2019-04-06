@@ -4,7 +4,7 @@
 
 ![shopify logo](https://github.com/chriscomeau/ShopifyiOSCollections/blob/master/images/shopify-logo.png)
 
-Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios).
+Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios) (and [Shopify/FunctionalTableData](https://github.com/Shopify/FunctionalTableData)).
 
 
 ## Building and Running
@@ -16,6 +16,11 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 * Install Cocoapods
 
         $ pod install
+        
+* Update frameworks with Carthage 
+         
+        $ carthage update
+
 
 * Open `ShopifyiOSSDKTest.xcworkspace` in Xcode.
       
@@ -37,18 +42,19 @@ Test project for trying out [Shopify/mobile-buy-sdk-ios](https://github.com/Shop
 ## Features
 
 - [x] Swift 5.0
-- [x] Cocoapods
+- [x] [Cocoapods](https://cocoapods.org)
+- [x] [Carthage](https://github.com/Carthage/Carthage)
+- [ ] [Shopify/FunctionalTableData](https://github.com/Shopify/FunctionalTableData) for data display (in progress...)
 - [x] [Travis CI](https://travis-ci.org)
 - [x] Connect using [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios) 
 - [x] Tested API credentials with [GraphiQL](https://github.com/graphql/graphiql)
 - [x] Tested with existing test store [https://skyriser-media.myshopify.com](https://skyriser-media.myshopify.com/)
-- [ ] [Shopify/FunctionalTableData](https://github.com/Shopify/FunctionalTableData) for data display
 
 
 ## Frameworks
 
 - [Shopify/mobile-buy-sdk-ios](https://github.com/Shopify/mobile-buy-sdk-ios)
-
+- [Shopify/FunctionalTableData](https://github.com/Shopify/FunctionalTableData)
  
 ## Requirements
 
