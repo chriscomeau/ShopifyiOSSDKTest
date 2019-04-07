@@ -10,8 +10,9 @@ before_install:
   - pod repo update
   - brew update
   - brew outdated carthage || brew upgrade carthage
+  - cd ShopifyiOSSDKTest
   - carthage bootstrap --verbose --no-use-binaries --platform iOS --cache-builds
 
 cache:
   directories:
-  - Carthage
+  - ShopifyiOSSDKTest/Carthage
