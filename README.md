@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/chriscomeau/ShopifyiOSSDKTest.svg?branch=master)](https://travis-ci.org/chriscomeau/ShopifyiOSSDKTest)
+[![Swift 5.0](https://img.shields.io/badge/swift-5.0-green.svg?style=flat)](https://developer.apple.com/swift)
+
 
 # ShopifyiOSSDKTest
 
